@@ -36,18 +36,33 @@
 					<!-- ThinkBIG Logo End-->
 
 					<!-- Subscribe START-->
-					<div class="col-md-2" style="float: right">
+					
+					<div class="col-md-2" style="float: left">
 						<div class="contact-form">
 							<input type="submit"
-								   disabled=disabled
-								   value="Subscribe"
-								   style="display: block; margin-bottom:14px; width: 100%; height:90px ">
+								   disabled=enabled
+								   value="Subscribe" 
+								   style="display: block; margin-top:6px; width: 100%; height:50px ">
 						</div>
+						<div class="contact-form">
+						  <a href="/sign.html">
+						   <input type="submit"
+								   disabled=disabled
+								   value="Sign in" 
+								   style="display: block; margin-top:-10px; width: 100%; height:50px;background-color:#03c423 ">
+						  </a>
+						</div>
+					</div>
+					<div class="filters">
+							<form class="search-form" style="float: right">
+								<input id="search_input" type="text" placeholder="Search...">
+								<button type="button" style="float: left"><i class="fa fa-search"></i></button>
+							</form>
 					</div>
 					<!-- Subscribe End-->
 
 					<!-- EMAIL & Authentication Token Handling START-->
-					<div class="col-md-2" style="float: right">
+					<!--<div class="col-md-2" style="float: right">
 						<div class="contact-form">
 							<input type="submit" value="Send Auth Token"
 								   style="display: block; margin-bottom:
@@ -63,7 +78,7 @@
 							<input id="email_input" type="text" class="email" placeholder="enter your email">
 							<input id="token_input" type="text" class="email" placeholder="enter your verification token">
 						</div>
-					</div>
+					</div>-->
 					<!-- EMAIL & Authentication Token Handling END-->
 				</div>
 
@@ -88,21 +103,23 @@
 								<option value="#">2013</option>
 								<option value="#">2014</option>
 							</select>
-
-							<form class="search-form" style="float: right">
+						</div>
+                        <!--
+							<form class="search-form" style="float: left">
 								<input id="search_input" type="text" placeholder="Search...">
 								<button type="button"><i class="fa fa-search"></i></button>
 							</form>
-						</div>
+						</div>-->
 
-
+                        
 						<div id="media" class="movie-list">
-
-
+                          
 						</div> <!-- .movie-list -->
+						
 
-
-
+					</div>
+					<div >
+						   <button class="triangle-left"></button>
 					</div>
 
 				</div> <!-- .container -->

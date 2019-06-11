@@ -211,7 +211,7 @@ table {
  * Global Styles
  */
 body {
-  background-color: #0d5054;
+  background-color: #eaefef;
   background-position: top center;
   background-repeat: no-repeat;
   color: #84878d;
@@ -244,7 +244,10 @@ p {
 
 form input, form textarea, form select {
   outline: none;
+  margin-top: 30px; 
+  margin-right: 50px; 
   border: 1px solid #ccc;
+  width: 550px;
   padding: 10px;
   border-radius: 5px;
   outline: none; }
@@ -258,17 +261,31 @@ form textarea {
 /*
  * Reusable Components Style
  */
+
+
 .button, form input[type="submit"], form button, form input[type="reset"], .contact-form input[type="submit"] {
   border: none;
-  background: #ffaa3c;
+  background: #457acc;
   padding: 10px;
   border-radius: 3px;
+  margin-top :30px;
+  margin-right: 10px;
   color: #92601e;
   box-shadow: 0 1px 1px rgba(0, 0, 0, 0.3);
   -webkit-transition: .3s ease;
           transition: .3s ease; }
   .button:hover, form input[type="submit"]:hover, form button:hover, form input[type="reset"]:hover, .contact-form input[type="submit"]:hover {
     background-color: #ffc06f; }
+
+.triangle-left {
+	width: 0;
+	height: 0;
+	border-radius: 3px;
+	border-top: 25px solid transparent;
+	border-right: 50px solid #555;
+	border-bottom: 25px solid transparent;
+	background:#fffbf9;
+}
 
 .slider {
   position: relative;
@@ -488,6 +505,7 @@ ul.arrow {
 
 .contact-form {
   margin-bottom: 30px;
+  margin-top :20px;
   *zoom: 1; }
   .contact-form:after {
     content: " ";
@@ -530,6 +548,8 @@ ul.arrow {
 .container {
   margin-right: auto;
   margin-left: auto;
+  margin-top: -60px;
+  margin-bottom: 30px;
   padding-left: 15px;
   padding-right: 15px;
   *zoom: 1; }
@@ -1385,11 +1405,11 @@ ul.arrow {
     height: 0; }
 
 #branding {
-  float: left; }
+  float: right; }
   #branding .logo, #branding .logo-copy {
     display: inline-block; }
   #branding .logo {
-    margin-right: 10px; }
+    margin-right: -5px; }
   #branding .site-title {
     margin: 0;
     text-transform: uppercase;
@@ -1473,7 +1493,7 @@ ul.arrow {
             transition: .3s ease;
     padding: 10px 0; }
     .main-navigation .search-form input.active {
-      width: 200px;
+      width: 400px;
       visibility: visible;
       opacity: 1;
       padding: 10px; }
@@ -1484,14 +1504,16 @@ ul.arrow {
     border-radius: 0;
     border-top-right-radius: 5px;
     border-bottom-right-radius: 5px;
-    margin-left: -5px;
+    margin-left: 5px;
     color: inherit;
     box-shadow: none;
     outline: none;
     -webkit-transition: .3s ease;
             transition: .3s ease; }
     .main-navigation .search-form button.active {
-      background-color: #f0f0f0; }
+      background-color: #f0f0f0;
+	  float: left;
+	  }
 
 .mobile-navigation {
   clear: both;
