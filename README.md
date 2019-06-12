@@ -18,3 +18,12 @@ this repository contains an assignment for our summer interns'19 candidates
   
 note: there are many small updates in colores,backgrounds,border and margin in style of code.
 
+sign.html
+https://github.com/abdallahsayed98/movie_recommendations_fe_assignment/blob/master/sign.PNG
+
+
+index.html-img1
+https://github.com/abdallahsayed98/movie_recommendations_fe_assignment/blob/master/index.PNG
+
+index.html-img2
+https://github.com/abdallahsayed98/movie_recommendations_fe_assignment/blob/master/index2.PNG
