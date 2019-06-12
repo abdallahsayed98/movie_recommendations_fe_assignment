@@ -19,12 +19,12 @@ this repository contains an assignment for our summer interns'19 candidates
 note: there are many small updates in colores,backgrounds,border and margin in style of code.
 
 sign.html
-https://raw.githubusercontent.com/abdallahsayed98/movie_recommendations_fe_assignment/master/sign.PNG
+![](https://raw.githubusercontent.com/abdallahsayed98/movie_recommendations_fe_assignment/master/sign.PNG)
 
 
 index.html-img1
-https://raw.githubusercontent.com/abdallahsayed98/movie_recommendations_fe_assignment/master/index.PNG
+![](https://raw.githubusercontent.com/abdallahsayed98/movie_recommendations_fe_assignment/master/index.PNG)
 
 index.html-img2
-https://raw.githubusercontent.com/abdallahsayed98/movie_recommendations_fe_assignment/master/index2.PNG
+![](https://raw.githubusercontent.com/abdallahsayed98/movie_recommendations_fe_assignment/master/index2.PNG)
 
